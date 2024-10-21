@@ -23,6 +23,19 @@ for i in range(3):
     left(120) # turn left - 90
 end_fill() #end the fill color
 
+#flag
+penup()
+goto(-300, -150)
+pendown()
+pencolor("pink")
+speed(0) #speed of the turtle -- 0 is fastest
+fillcolor("purple") # color to be filled inside the shape
+begin_fill() #start filling the color
+for i in range(3):
+    forward(200) #move the turtle forward
+    left(120) # turn left - 90
+end_fill() #end the fill color
+
 
 
 
